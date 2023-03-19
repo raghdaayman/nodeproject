@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+      <head>
+           <title>Login</title>
+           <link rel="stylesheet"  href="css/login.css" />
+      </head>
+      <body>
+            <h2>{{>header}} </h2>
+            <img class="wave" src={{img3}}>
+                  <div class="card">
+                  <input type="checkbox" id="chk" aria-hidden="true" name="">
+                  <div class="content">
+                        <div class="front">
+                              <div class="inner">
+                                    <h2>{{login}} </h2>
+                                    <p> {{description}}</p>
+                                    <input type="text" name="txt" placeholder="User name">
+                                    <input type="password" name="pswd" placeholder="Password"> 
+                                    <label for="chk" aria-hidden="true">{{desc}}</label>
+                                    <button type="button"> {{login}}</button>
+                              </div>
+                        </div>
+
+                        <div class="back">
+                              <div class="inner">
+                                    <h2>{{reset}} </h2>
+                                    <p> {{description}}</p>
+                                    <input type="text" name="txt" placeholder="User name">
+                                    <input type="email" name="email" placeholder="Email address"> 
+                                    <button type="button"> {{reset}}</button>
+                                    <label for="chk" aria-hidden="true">{{back}}</label>
+                              </div>
+                        </div>
+                  </div>
+            </div>    
+        <h2>{{>footer}} </h2>
+
+      </body>
+</html>

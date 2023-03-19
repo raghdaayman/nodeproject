@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+      <head>
+          <title>SIGNUP PAGE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+           <link rel="stylesheet"  href="css/signup.css" />
+      </head>
+      <body>
+            <h2>{{>header}} </h2>
+           <img class="wave" src={{img3}}>
+                <div class="card">
+                  <div class="content">
+                        <div class="front">
+                              <div class="inner">
+                                    <h2>{{title}} </h2>
+                                    <p> {{description}}</p>
+                                    <input type="text" name="txt" placeholder={{user}}>
+                                    <input type="email" name="email" placeholder={{email}}> 
+                                    <input type="password" name="pswd" placeholder={{pass}}> 
+                                    <label for="chk" aria-hidden="true">{{desc}} <a href="/login">{{LOGIN}}</a> </label>
+                                    <button type="button"> {{signup}}</button>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+        <h2>{{>footer}} </h2>
+
+      </body>
+</html>
